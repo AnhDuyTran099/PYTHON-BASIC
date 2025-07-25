@@ -9,10 +9,10 @@ def convert_to_bin(n):
     hàm bin():
     n=???(ví dụ 25)
     *Lấy toàn bộ kể cả chỉ định
-        res=bin(n)
+        res=bin(25)
         -> res=0b11001 với 0b là chỉ định đây là số nhị phân
     *Chỉ lấy phần nhị phân
-        res=bin(n)[2:]
+        res=bin(25)[2:]
         -> res=11001
 """
 n=int(input())
